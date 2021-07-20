@@ -4,7 +4,7 @@ LABEL maintainer="Folaht"
 LABEL release-date="2021-07-19"
 
 # Synchronize Manjaro Linux OS 
-Run pacman -Sy
+RUN pacman -Sy
 
 # Install dependencies
 RUN pacman --noconfirm -S btrfs-progs
