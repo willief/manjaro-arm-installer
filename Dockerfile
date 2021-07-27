@@ -12,5 +12,9 @@ RUN pacman --noconfirm -S btrfs-progs
 # Install Manjaro Arm Installer
 RUN pacman --noconfirm -S manjaro-arm-installer
 
-# Run command on Docker launch
+# Run command on Docker launch]
+
+
+CMD ["sudo su -"]
+
 CMD ["manjaro-arm-installer"]
